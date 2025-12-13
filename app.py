@@ -9,8 +9,8 @@ from diffusers import DiffusionPipeline
 # ----------------------------
 # EDIT THESE LINKS
 # ----------------------------
-GITHUB_REPO_URL = "https://github.com/yourusername/your-repo"
-NOTEBOOK_URL = "https://github.com/yourusername/your-repo/blob/main/Generative_Project.ipynb"
+GITHUB_REPO_URL = "https://github.com/nehadharanu/text-to-image-stable-diffusion"
+NOTEBOOK_URL = "https://github.com/nehadharanu/text-to-image-stable-diffusion/blob/main/Generative_Project.ipynb"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_DIR = os.path.join(BASE_DIR, "models", "best_evaluated_model")
